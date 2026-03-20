@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #021e47, #3d4044);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background: linear-gradient(to bottom right, #4883b7, #416fa3);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    transition: background 0.8s ease, box-shadow 2.15s ease, transform 0.6s ease;
+}
+
+.container:hover{
+    background: linear-gradient(to bottom right, #64b7ff, #4e85c5);
+    box-shadow: 0 20px 80px rgb(94, 178, 238);
+    transform: translateY(-12px)
+}
+
+
+h1 {
+    margin-bottom: 25px;
+    color: #ffffff; 
+    font-size: 1.8em;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+
+button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #008cff; 
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff; 
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+button:hover {
+    background-color: #a3d4ff;
+    box-shadow: 0 0 30px 10px rgba(187, 234, 255, 0.7);
+    color: #ffffff;
+    transform: scale(1.25) translateY(-5px);
+    
+}
